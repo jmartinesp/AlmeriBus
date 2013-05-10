@@ -1,3 +1,13 @@
+#-------------------------------------------------------------------------------
+# Copyright (c) 2013 Jorge Mart’n Espinosa (Arasthel).
+# All rights reserved. This program and the accompanying materials
+# are made available under the terms of the GNU Public License v3.0
+# which accompanies this distribution, and is available at
+# http://www.gnu.org/licenses/gpl.html
+# 
+# Contributors:
+#     Jorge Mart’n Espinosa (Arasthel) - initial API and implementation
+#-------------------------------------------------------------------------------
 1 36.84615019 -2.466988057
 2 36.84749519 -2.463458292
 3 36.8447255 -2.46295051
