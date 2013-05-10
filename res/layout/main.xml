@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF3712"
+    android:paddingTop="10dip"
+    android:paddingLeft="20dip"
+    android:paddingBottom="16dip"
+    android:gravity="center_horizontal"
+    android:paddingRight="20dip" >
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:gravity="center">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:textColor="#fff"
+            android:textSize="28sp"
+             android:text="AlmeriBus"/>
+    </LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_back"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:gravity="center_horizontal">
+    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Bienvenido a Almeribus. La aplicación necesita cargar una serie de datos locales para funcionar."
+	        android:padding="8dip"
+	        android:gravity="center_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip" />
+    
+    <ImageView android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:padding="10dip"
+        android:src="@drawable/slide"
+        android:visibility="gone"/>
+    
+    <Button android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:text="Reintentar"
+        android:visibility="gone"/>
+    
+    <TextView android:id="@+id/info"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Por favor, espere mientras se cargan los datos..."
+	        android:padding="8dip"
+	        android:gravity="center_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/org.arasthel.almeribus">
+    <android.support.v4.view.ViewPager 
+       android:id="@+id/view_pager"
+       android:layout_width="wrap_content"
+       android:layout_height="400dip">
+   
+	</android.support.v4.view.ViewPager>
+	<com.viewpagerindicator.CirclePageIndicator
+	    android:id="@+id/indicator"
+	    android:padding="2dip"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    app:fillColor="#d81417"
+	    app:radius="5dip"
+	    android:layout_marginBottom="20dip" />
+</LinearLayout>

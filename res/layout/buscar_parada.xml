@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    <RelativeLayout android:id="@+id/controles_mapa"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+	
+		    <FrameLayout
+		        android:id="@+id/container_map"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"/>
+		    
+		
+		    <ImageButton
+		        android:id="@+id/filtro_paradas_btn"
+		        android:layout_width="52dip"
+		        android:layout_height="52dip"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginRight="4dip"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginBottom="150dp"
+		        android:alpha="0.9"
+		        android:enabled="false"
+		        android:background="@android:drawable/btn_default"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/linea_btn"
+		         />
+		
+		    <ImageButton
+		        android:id="@+id/filtro_distancia_btn"
+		        android:layout_width="52dip"
+		        android:layout_height="52dip"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginRight="4dip"
+		        android:layout_alignTop="@+id/filtro_paradas_btn"
+		        android:layout_marginTop="52dp"
+		        android:alpha="0.9"
+		        android:enabled="false"
+		        android:background="@android:drawable/btn_default"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/distance_btn" />
+		
+		    <ImageButton
+		        android:id="@+id/mostrar_satelite"
+		        android:layout_width="52dip"
+		        android:layout_height="52dip"
+		        android:layout_above="@+id/filtro_paradas_btn"
+		        android:layout_alignLeft="@+id/filtro_paradas_btn"
+		        android:alpha="0.9"
+		        android:background="@android:drawable/btn_default"
+		        android:enabled="false"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/terreno_btn" />
+		
+	</RelativeLayout>
+	
+	    
+	<LinearLayout android:id="@+id/error_mapa"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:padding="20dip"
+	    android:visibility="gone">
+	    
+	    <TextView android:id="@+id/error_mapa_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"/>
+	    <Button android:id="@+id/error_mapa_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Descargar"/>
+	    
+	</LinearLayout>
+</FrameLayout>

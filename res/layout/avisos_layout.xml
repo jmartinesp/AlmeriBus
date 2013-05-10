@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:padding="10dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avisos"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/lista_avisos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <LinearLayout android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="Por favor, espere mientras se cargan los avisos"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <ProgressBar android:layout_width="64dip"
+	        android:layout_height="64dip"
+	        android:indeterminate="true"/>
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/error_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="No se pudieron cargar los datos, por favor, vuelve a intentarlo" />
+	    <Button android:id="@+id/retry"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Reintentar" />
+    </LinearLayout>
+</LinearLayout>

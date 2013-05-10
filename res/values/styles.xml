@@ -1,0 +1,28 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.Sherlock.Light" >
+		<item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+		<item name="android:listSelector">@drawable/list_selector_holo_light</item>
+
+    </style>
+
+    <style name="CustomTabPageIndicator" >
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>        
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">#FF555555</item>
+    </style>
+    
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#fff</item>
+        <item name="android:windowIsFloating">true</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:gravity">bottom</item>
+    </style>
+
+
+</resources>

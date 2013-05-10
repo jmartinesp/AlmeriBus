@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF3712"
+    android:paddingTop="10dip"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip" >
+    
+     <LinearLayout android:id="@+id/menu"
+          	android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">    
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:gravity="center">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:textColor="#fff"
+            android:textSize="28sp"
+             android:text="AlmeriBus"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/abrir_listado_paradas" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/paradas"/>
+        <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dip"
+	        android:text="Paradas"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#fff" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@drawable/separator" />
+    
+    <LinearLayout android:id="@+id/abrir_listado_tarifas" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/tarifas"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Tarifas"
+	        android:textColor="#fff"
+	        android:padding="8dip"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separator" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/lineas"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dip"
+	        android:text="Info. de líneas"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#fff" />
+	</LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separator" />
+    
+    <LinearLayout android:id="@+id/abrir_mapa_paradas" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/mapa"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Mapa de paradas"
+	        android:textColor="#fff"
+	        android:padding="8dip"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separator" />
+
+	
+  	<LinearLayout android:id="@+id/avisos" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/avisos"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Avisos"
+	        android:textColor="#fff"
+	        android:padding="8dip"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separator" />
+  	
+	<LinearLayout android:id="@+id/info" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/info"/>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Sobre la aplicación"
+	        android:textColor="#fff"
+	        android:padding="8dip"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+	    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separator" />
+  	</LinearLayout>
+  </ScrollView>

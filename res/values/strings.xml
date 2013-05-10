@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">AlmeriBus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal">AlmeriBus</string>
+    <string name="error">La aplicación ha fallado, se enviará un correo con el error al desarrollador.</string>
+    <string name="error_title">Ocurrió un error</string>
+    <string name="error_report_sent">Enviado informe de error al desarrollador, muchas gracias por colaborar</string>
+    <string name="send">Enviar</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>

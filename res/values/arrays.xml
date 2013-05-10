@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distancia_filtro">
+        <item>150 metros</item>
+        <item>200 metros</item>
+        <item>250 metros</item>
+        <item>500 metros</item>
+        <item>1000 metros</item>
+        <item>Cualquiera</item>
+    </string-array>
+    
+    <integer-array name="distancia_filtro_values">
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>0</item>
+    </integer-array>
+</resources>

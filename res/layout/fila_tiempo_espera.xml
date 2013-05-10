@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/imageLinea"
+        android:scaleType="fitCenter"
+        android:layout_width="32dip"
+        android:layout_height="32dip" 
+        android:layout_marginRight="20dip"/>
+
+    <TextView
+        android:id="@+id/tiempoEspera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
