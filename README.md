@@ -13,9 +13,13 @@ Esta versión de la aplicación contiene los accesos a las clases que hacen uso 
 Este software hace uso de las siguientes librerías:
 
 ActionBarSherlock (Apache): https://github.com/github/android
+
 GooglePlayServices
+
 GridLayout
+
 SlidingMenu (Apache): https://github.com/jfeinstein10/SlidingMenu
+
 ViewPagerIndicator (Apache): https://github.com/JakeWharton/Android-ViewPagerIndicator
 
 
